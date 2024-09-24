@@ -1,0 +1,92 @@
+
+body{
+    background-image: url(back4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.header{
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2,h4{
+    padding-left: 195px;
+}
+h3{
+    padding-left: 165px;
+}
+.list_fixed{
+    list-style-type: none;
+}
+span{
+    font-weight: bold;
+    color: red;
+}
+a:hover{
+    color:deepskyblue;
+}
+
+ul{
+    padding-left: 60px;
+}
+
+.quote{
+    text-align: right;
+    text-shadow: 2px 2px #7b787b;
+    height: 75px;
+}
+#yoda{
+    height: 65px;
+}
+
+#cs_page{
+    text-align: right;
+}
+.image{
+    border: 3px solid black;
+    height: 350px;
+    width: auto;
+    border-radius: 15px;
+}
+ 
+.content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.table{
+    margin-left: 50px;
+    border-collapse: collapse;
+    width: 400px;
+    box-shadow: 1px 1px 1px 1px rgb(31, 29, 29);
+    border-radius: 3px;
+
+}
+
+.table thead tr {
+    background-color: #9c82e9;
+    text-align: left;
+
+}
+th, td{
+    padding: 9px 12px;
+}
+.row{
+    border-bottom: 1px solid #3d3535;
+    
+}
+tr:nth-of-type(even){
+    background-color: #9c82e9;
+}
+
+tr:nth-of-type(odd){
+    background-color: #ffffff;
+}
+
+
